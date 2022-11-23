@@ -1,0 +1,17 @@
+.board{
+  width: 400px;
+  height: 400px;
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  justify-content: center;
+}
+
+.spot{
+  width: auto;
+  height: auto;
+  border: 1px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
